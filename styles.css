@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    background-color: rgb(163, 163, 163);
+    font-family: "Noto Sans", sans-serif;
+}
+.header{
+    border-bottom: 1.2px solid rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.modo-pink{
+    font-size: 1.2rem;
+    border-radius: 18px;
+    background-color: rgb(180, 178, 178);
+    color: black;
+    margin-left: 15px;
+}
+.modo-pink:hover{
+    cursor: pointer;
+    background-color: rgb(248, 205, 237);
+    color: rgb(185, 9, 141);
+    border: 1px solid rgb(185, 9, 141);
+}
+
+.header h1{
+    font-size: 4rem;
+    margin: 0px;
+}
+.header img{
+    width: 50px;
+    margin-right: 15px;
+}
+.header img:hover{
+    cursor: pointer;
+}
+
+
+.categorias{
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.categorias ul{
+    display: flex;
+    list-style: none;
+}
+
+.categorias ul li{
+    margin-right: 50px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+
+.comprar {
+    border-bottom: 1.2px solid rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+
+
+}
+.comprar a{
+    text-decoration: none;
+    color: black;
+    font-size: 2rem;
+    padding: 20px;
+}
+.comprar a:hover{
+    font-size: 2.1rem;
+}
+
+/* modo pink  */
+
+.bodyPink{
+    background-color: rgb(248, 205, 237);
+    color: rgb(185, 9, 141);
+}
+.bodyPink header{
+    border-bottom: 1px solid rgb(185, 9, 141);
+}
+
+.bodyPink a{
+    color: rgb(185, 9, 141);
+}
+
+/* main */
+.shop-content{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0);
+    background-color: grey;
+    margin: 30px;
+    width: 500px;
+    height: 550px;
+    padding: 15px;
+}
+
+.card h3{
+    font-size: 2rem;
+    margin-top: 5px;
+}
+
+.card p{
+    font-size: 1.7rem;
+    color: black;
+}
+
+.card  img{
+    width: 300px;
+    height: 350px;
+}
+
+.comprar{
+    font-size: 1.5rem;
+    border-radius: 30px;
+    background-color: rgb(180, 178, 178);
+    color: black;
+}
+.comprar:hover{ 
+    cursor: pointer;
+    background-color: rgb(153, 152, 152)
+}
+
+.bodyPink .card{
+    background-color:  rgb(231, 173, 217);
+}
+
+.bodyPink .comprar{
+    background-color: rgb(248, 205, 237);
+    color: rgb(185, 9, 141);
+    border: 1px solid rgb(185, 9, 141);
+}
+
+.bodyPink p{
+    color: rgb(185, 9, 141);
+}
+
+/*modal */
+.modal-container {
+    width: 80%;
+    margin: 0 10%;
+    max-height: 88vh;
+    background-color: rgb(191, 190, 190);
+    display: flex;
+    flex-direction: column;
+    
+    /*for the top*/
+    position: fixed;
+    overflow: auto;
+    z-index: 9;
+    top: 3vh;
+    
+    
+}
+
+.modal-header{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(83, 83, 83);
+    color: rgb(0, 0, 0);
+    width: 100%;
+}
+.modal-header-title{
+    justify-self: start;
+    text-align: 1rem;
+}
+.modal-header-button{
+    cursor: pointer;
+}
+
+.carrito-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    margin-left: 100px;
+    
+}
+.carrito-content .boton-borrador{
+    font-size: 1.2rem;
+    border-radius: 18px;
+    background-color: rgb(210, 208, 208);
+    color: black;
+    
+}
+.delete-product{
+    cursor: pointer;
+}
+
+.total-content{
+    font-size: 1.5rem;
+    padding: 20px;
+    text-align: right;
+}
+.bodyPink .modal-container{
+    background-color: rgb(236, 156, 216);
+}
+
+.bodyPink .modal-header{
+    background-color: rgb(237, 75, 197);
+    color: rgb(105, 3, 81);
+}
