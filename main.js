@@ -16,7 +16,7 @@ const Productos = [
     new Producto(2,'ojos', 'Delineador', 10000, './images/delineador.jpg', 1),
     new Producto(3,'ojos', 'Sombras', 20000, './images/sombras.jpg', 1),
     new Producto(4,'labios', 'Gloss', 8000, './images/gloss.jpg', 1),
-    new Producto(5,'labios', 'Labial', 10000, './images/labial.jpg'),
+    new Producto(5,'labios', 'Labial', 10000, './images/labial.jpg', 1),
     new Producto(6,'labios', 'Delineador de Labios', 5000, './images/delineador-labios.jpg', 1),
     new Producto(7,'rostro', 'Base', 20000, './images/base.jpg', 1),
     new Producto(8,'rostro', 'Corrector', 17000, './images/corrector.jpg', 1),
