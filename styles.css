@@ -60,8 +60,6 @@ body{
     border-bottom: 1.2px solid rgb(0, 0, 0);
     display: flex;
     justify-content: center;
-
-
 }
 .comprar a{
     text-decoration: none;
@@ -154,14 +152,13 @@ body{
     background-color: rgb(191, 190, 190);
     display: flex;
     flex-direction: column;
+    align-items: center;
     
     /*for the top*/
     position: fixed;
     overflow: auto;
     z-index: 9;
     top: 3vh;
-    
-    
 }
 
 .modal-header{
@@ -182,20 +179,18 @@ body{
 .carrito-content{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     width: 70%;
-    margin-left: 100px;
-    
+    margin: 20px;
 }
 .carrito-content .boton-borrador{
     font-size: 1.2rem;
     border-radius: 18px;
-    background-color: rgb(210, 208, 208);
+    background-color: rgb(83, 83, 83);
     color: black;
-    
 }
-.delete-product{
+.eliminar-producto{
     cursor: pointer;
 }
 
@@ -204,6 +199,13 @@ body{
     padding: 20px;
     text-align: right;
 }
+.btn-vaciar{
+    font-size: 1.2rem;
+    background-color: rgb(83, 83, 83);
+    color: black;
+    padding: 5px;
+}
+
 .bodyPink .modal-container{
     background-color: rgb(236, 156, 216);
 }
@@ -211,4 +213,50 @@ body{
 .bodyPink .modal-header{
     background-color: rgb(237, 75, 197);
     color: rgb(105, 3, 81);
+}
+
+.cantidad-carrito{
+    background-color: rgb(83, 83, 83);
+    color: black;
+    border-radius: 50%;
+    font-size: 12px;
+    padding: 4px;
+    top: 37px;
+    right: 14px;
+    position: absolute;
+    display: none;
+}
+
+.sumar{
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+.restar{
+    cursor: pointer;
+    font-size: 1.8rem;
+}
+.vaciar-carrito{
+    font-size: 1rem;
+    border-radius: 30px;
+    background-color: rgb(180, 178, 178);
+    color: black;
+    margin-bottom:10px ;
+}
+.bodyPink .vaciar-carrito{
+    background-color: rgb(248, 205, 237);
+    color: rgb(185, 9, 141);
+    border: 1px solid rgb(185, 9, 141);
+}
+
+.finalizar-compra{
+    font-size: 1rem;
+    border-radius: 30px;
+    background-color: rgb(180, 178, 178);
+    color: black;
+    margin-bottom:10px;
+}
+.bodyPink .finalizar-compra{
+    background-color: rgb(248, 205, 237);
+    color: rgb(185, 9, 141);
+    border: 1px solid rgb(185, 9, 141);
 }
