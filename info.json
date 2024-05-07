@@ -1,0 +1,100 @@
+{
+    "articulos":[
+        {
+            "id": 1 ,
+            "categoria":"ojos" ,
+            "nombre":"Mascara de Pestañas ", 
+            "precio":15000 ,
+            "imagen":"./images/pestañas.jpg",
+            "cantidad": 1
+        }, 
+        {
+            "id": 2,
+            "categoria":"ojos" ,
+            "nombre": "Delineador", 
+            "precio": 10000,
+            "imagen": "./images/delineador.jpg",
+            "cantidad": 1 
+        }, 
+        {
+            "id": 3,
+            "categoria":"ojos" ,
+            "nombre":"Sombras" , 
+            "precio": 20000 ,
+            "imagen": "./images/sombras.jpg",
+            "cantidad": 1 
+        }, 
+        {
+            "id": 4,
+            "categoria": "labios",
+            "nombre": "Delineador de Labios", 
+            "precio": 5000 ,
+            "imagen": "./images/delineador-labios.jpg",
+            "cantidad": 1
+        }, 
+        {
+            "id": 5,
+            "categoria":"labios",
+            "nombre": "gloss", 
+            "precio": 8000,
+            "imagen":"./images/gloss.jpg" ,
+            "cantidad": 1
+        }, 
+        {
+            "id": 6,
+            "categoria":"labios",
+            "nombre": "Labial", 
+            "precio": 10000,
+            "imagen": "./images/labial.jpg",
+            "cantidad": 1
+        }, 
+        {
+            "id":7 ,
+            "categoria":"rostro" ,
+            "nombre": "Base", 
+            "precio": 20000,
+            "imagen": "./images/base.jpg",
+            "cantidad": 1
+        }, 
+        {
+            "id":8 ,
+            "categoria": "rostro",
+            "nombre": "Corrector", 
+            "precio": 17000,
+            "imagen": "./images/corrector.jpg",
+            "cantidad": 1
+        },
+        {
+            "id": 9,
+            "categoria": "rostro",
+            "nombre": "Polvo Compacto", 
+            "precio": 15000,
+            "imagen":"./images/polvo.jpg",
+            "cantidad": 1
+        }, 
+        {
+            "id": 10 ,
+            "categoria": "rostro",
+            "nombre": "Rubor", 
+            "precio": 10000,
+            "imagen": "./images/rubor.jpg",
+            "cantidad": 1
+        }, 
+        {
+            "id": 11,
+            "categoria": "rostro",
+            "nombre": "Iluminador", 
+            "precio": 10000,
+            "imagen": "./images/iluminador.jpg",
+            "cantidad": 1
+        }, 
+        {
+            "id": 12,
+            "categoria": "rostro",
+            "nombre": "Bronzer", 
+            "precio": 10000,
+            "imagen":"./images/bronzer.jpg" ,
+            "cantidad": 1
+        }
+    ]
+}

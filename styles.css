@@ -127,7 +127,7 @@ body{
 }
 .comprar:hover{ 
     cursor: pointer;
-    background-color: rgb(153, 152, 152)
+    background-color: rgb(153, 152, 152);
 }
 
 .bodyPink .card{
@@ -225,6 +225,11 @@ body{
     right: 14px;
     position: absolute;
     display: none;
+}
+
+.bodyPink .cantidad-carrito{
+    background-color: rgb(237, 75, 197);
+    color: rgb(105, 3, 81);
 }
 
 .sumar{
